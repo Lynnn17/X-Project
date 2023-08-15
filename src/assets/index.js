@@ -26,6 +26,12 @@ import guestPhoto1 from "./img/guestPhoto.png";
 import goldTrophy from "./img/gold-trophy.svg";
 import silverTrophy from "./img/silver-trophy.svg";
 import bronzeTrophy from "./img/bronze-trophy.svg";
+import fotoBMC from "./img/fotoUserBMC.png";
+import fotoGallery1 from "./img/fotoGallery1.png";
+import fotoGallery2 from "./img/fotoGallery2.png";
+import fotoGallery3 from "./img/fotoGallery3.png";
+import Andika from "./img/Andika.png";
+import Ruhi from "./img/Ruhi.png";
 
 export {
   logoXpro,
@@ -56,4 +62,10 @@ export {
   goldTrophy,
   silverTrophy,
   bronzeTrophy,
+  fotoBMC,
+  fotoGallery1,
+  fotoGallery2,
+  fotoGallery3,
+  Andika,
+  Ruhi,
 };

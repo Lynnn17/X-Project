@@ -9,6 +9,7 @@ import SubTitle from "../components/SubTitle";
 import Gallery from "../components/about/Gallery";
 import Teaser from "../components/about/Teaser";
 
+
 const About = () => {
   return (
     <div>

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { logoXpro } from "../assets";
+import { useEffect } from "react";
 
 const Navbar = () => {
   // Start Use State Close Open Dropdown
@@ -29,6 +30,24 @@ const Navbar = () => {
     setOpenTwoMobile(!openTwoMobile);
   };
 
+ useEffect(() => {
+    // Contoh: Ubah openOne ketika openMobile berubah menjadi true
+    if (openOne) {
+      setOpenOne(true);
+      setOpenTwo(false);
+    } 
+  }, [openOne]);
+
+  useEffect(() => {
+    // Contoh: Ubah openOne ketika openMobile berubah menjadi true
+     if (openTwo) {
+      setOpenTwo(true);
+      setOpenOne(false);
+    }
+  }, [openTwo]);
+ 
+  
+  
   // End Use State Close Open Dropdown
 
   return (
@@ -63,7 +82,7 @@ const Navbar = () => {
             </button>
             {/* Start Dropdown Tech Genius */}
             {openOne ? (
-              <ul className="absolute bg-gray-100/40 border border-blue-300 text-blue-900 p-[0.9rem] top-12 rounded backdrop-blur-xl shadow-[0px_6px_6px_0px_rgba(0,0,0,0.25)]">
+              <ul className="absolute bg-gray-100/40 border border-blue-300 text-white p-[0.9rem] top-12 rounded backdrop-blur-xl shadow-[0px_6px_6px_0px_rgba(0,0,0,0.25)]">
                 <li className="w-[15rem] hover:bg-gray-50/5 hover:backdrop-blur rounded">
                   <a className="block w-full h-full py-[0.9rem] px-[0.6rem]" href="/Bootcamp-UIUX">
                     Bootcamp UI/UX Design
@@ -98,7 +117,7 @@ const Navbar = () => {
             </button>
             {/* Start Dropdown Tech Genius */}
             {openTwo ? (
-              <ul className="absolute bg-gray-100/40 border border-blue-300 text-blue-900 p-[0.9rem] top-12 rounded backdrop-blur-xl shadow-[0px_6px_6px_0px_rgba(0,0,0,0.25)]">
+              <ul className="absolute bg-gray-100/40 border border-blue-300 text-white p-[0.9rem] top-12 rounded backdrop-blur-xl shadow-[0px_6px_6px_0px_rgba(0,0,0,0.25)]">
                 <li className="w-[15rem] hover:bg-gray-50/5 hover:backdrop-blur rounded">
                   <a className="block w-full h-full py-[0.9rem] px-[0.6rem]" href="/UIUX-Competition">
                     UI/UX Design

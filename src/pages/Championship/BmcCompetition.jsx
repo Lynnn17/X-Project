@@ -20,21 +20,29 @@ const BmcCompetition = () => {
       <div className="bg-gradient-to-b from-blue-1000 to-blue-400 pt-36" id="about-bmccomp">
         <SubTitleExtra title="Overview" sub="BMC Competition" />
         <OverviewIC
-          desc="Lorem ipsum dolor sit amet consectetur. Magna ultrices tortor diam eget nibh tempus cursus volutpat. Lorem ipsum dolor sit amet consectetur. Magna ultrices tortor diam eget nibh tempus cursus volutpat. Magna ultrices tortor diam eget nibh tempus cursus volutpat. Magna ultrices tortor diam eget nibh tempus cursus volutpat. Magna ultrices tortor diam eget nibh tempus cursus volutpat."
+          desc="Perlombaan Business Model Canvas adalah suatu kompetisi di mana peserta diminta untuk mengembangkan dan menyajikan model bisnis menggunakan kerangka kerja Business Model Canvas. Business Model Canvas adalah alat yang digunakan untuk menggambarkan dan merancang elemen-elemen kunci dari suatu model bisnis secara komprehensif dan terstruktur."
           kategori="Mahasiswa"
+           tempat="Online"
+          jam="Via Zoom"
           biaya="Free Pendaftaran"
           tingkat="Nasional"
         />
         <SubTitleExtra title="Timeline" sub="BMC Competition" />
         <div className="pb-36">
-          <TimelineLeft nama="Registrasi dan Pengumpulan" tanggal="25 Oktober - 27 Oktober 2023" />
-          <TimelineRight nama="Registrasi dan Pengumpulan" tanggal="29 Oktober - 31 Oktober 2023" />
-          <TimelineLeft nama="Registrasi dan Pengumpulan" tanggal="25 Oktober - 27 Oktober 2023" />
+          <TimelineLeft nama="Pendaftaran Gel. 1 & Pembayaran" tanggal="11 September - 2 Oktober 2023" />
+          <TimelineRight nama="Pendaftaran Gel. 2 & Pembayaran" tanggal="3 - 21 Oktober 2023" />
+          <TimelineLeft nama="Technical Meeting" tanggal="22 Oktober 2023" />
+          <TimelineRight nama="Pengumpulan Karya" tanggal="2 Oktober - 5 November 2023" />
+          <TimelineLeft nama="Penjurian" tanggal="6 - 7 November 2023" />
+          <TimelineRight nama="Pengumuman tim yang masuk ke final (10 tim yang terbaik)" tanggal="10  November 2023" />
+          <TimelineLeft nama="Pengumpulan Media Presentasi (Power Point)" tanggal="15 - 17  November 2023" />
+          <TimelineRight nama="Final IC + Presentasi" tanggal="25 November 2023" />
+          
         </div>
         <SubTitleExtra title="The Champion Prizes" sub="BMC Competition" />
-        <Prizes first="Rp 700.000" second="Rp 500.000" third="Rp 300.000" />
+        <Prizes first="Uang Pembinaan" second="Uang Pembinaan" third="Uang Pembinaan" />
         <SubTitle title="Contact Person" />
-        <ContactPerson firstlink="wa.me/" firstcp="Rizal Ramadhan" firstno="0858 0489 8461" secondlink="wa.me/" secondcp="Rizal Ramadhan" secondno="0858 0489 8461" />
+        <ContactPerson firstlink="wa.me/" firstcp="Kartika" firstno="0821 8286 8031" secondlink="wa.me/" secondcp="Nafla Aurellian" secondno="0896 7100 5203" />
         <Registration link="google.com" />
         <Background />
       </div>

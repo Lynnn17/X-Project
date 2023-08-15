@@ -29,7 +29,7 @@ const Home = () => {
     <div className="font-poppins">
       <Navbar />
       <HeroTitleHome title="X - Project 9.0" link="#about-home" />
-      <div className="bg-gradient-to-b from-blue-1000 to-blue-400">
+      <div className="bg-gradient-to-b from-blue-1000 to-blue-400 w-full">
         <AboutHome />
         <SubTitle title="Our Event" />
         <EventCardRight

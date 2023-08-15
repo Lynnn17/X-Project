@@ -23,7 +23,9 @@ const UiuxCompetition = () => {
           desc="Bootcamp UI/UX Design adalah program intensif yang dirancang untuk mengajarkan para peserta tentang pengalaman pengguna (UX) dan desain antarmuka (UI) pada website atau aplikasi. Dalam bootcamp ini, peserta akan diajarkan prinsip-prinsip desain yang efektif dan strategi untuk menciptakan pengalaman online yang menarik, fungsional, dan mudah digunakan."
           kategori="Mahasiswa"
           tempat="Online"
-          jam="19.00-20.00"
+          via = "Via ZOOM"
+          
+          
           biaya="Free Pendaftaran"
           tingkat="Nasional"
         />
@@ -44,9 +46,9 @@ const UiuxCompetition = () => {
           <TimelineLeft nama="Pengumuman Pemenang" tanggal="1 Desember 2023" />
         </div>
         <SubTitleExtra title="The Champion Prizes" sub="UI/UX Design Competition" />
-        <Prizes first="Rp 700.000" second="Rp 500.000" third="Rp 300.000" />
+        <Prizes first="Uang Pembinaan" second="Uang Pembinaan" third="Uang Pembinaan" />
         <SubTitle title="Contact Person" />
-        <ContactPerson firstlink="wa.me/" firstcp="Rizal Ramadhan" firstno="0858 0489 8461" secondlink="wa.me/" secondcp="Rizal Ramadhan" secondno="0858 0489 8461" />
+        <ContactPerson firstlink="https://api.whatsapp.com/send/?phone=6285812066072" firstcp="Muhammad Ammarul R" firstno="0858 1206 6072" secondlink="https://api.whatsapp.com/send/?phone=6281231930529" secondcp="Mutiara" secondno="0812 3193 0529" />
         <Registration link="google.com" />
         <Background />
       </div>

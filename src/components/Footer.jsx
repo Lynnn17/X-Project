@@ -55,8 +55,8 @@ const Footer = () => {
               Techno <br />
               Symphony
             </a>
-            <a href="/">Expo & KWU</a>
-            <a href="/">ISO & After Party</a>
+            <a href="/Techno-Symphony">Expo & KWU</a>
+            <a href="/Techno-Symphony">ISO & After Party</a>
           </li>
           <li className="w-1/4 flex flex-col gap-8">
             <p className="font-bold text-xl">

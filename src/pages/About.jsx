@@ -24,7 +24,7 @@ const About = () => {
         <div className="-mt-10">
           <SubTitle title="X-Project 9.0" />
         </div>
-        <Teaser link="https://youtu.be/1kUZ0LoUELI" />
+        <Teaser link="https://youtu.be/REQ8siU3m-8" />
         <Background />
       </div>
       <Footer />

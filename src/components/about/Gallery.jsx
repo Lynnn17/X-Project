@@ -15,7 +15,7 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 const Gallery = () => {
   return (
     <div className="w-full h-full px-4 md:px-[8.2rem] relative z-20 pb-36">
-      <div className="w-full md:h-[33rem] md:w-[40rem] mx-auto border-2 border-white bg-gradient-to-r from-blue-600/30 via-white/[0.03] to-blue-400/30 backdrop-blur shadow-[0px_6px_6px_0px_rgba(0,0,0,0.25)] p-2 md:p-6 rounded">
+      <div className="w-full md:w-[55rem] mx-auto border-2 border-white bg-gradient-to-r from-blue-600/30 via-white/[0.03] to-blue-400/30 backdrop-blur shadow-[0px_6px_6px_0px_rgba(0,0,0,0.25)] p-2 md:p-6 rounded">
         <Swiper navigation={true} pagination={true} autoplay={true} modules={[Navigation, Pagination, Autoplay]} className="mySwiper">
           <SwiperSlide>
             <img className="object-cover w-full h-full md:h-[30rem]" src={fotoGallery1} alt="slide 1" />

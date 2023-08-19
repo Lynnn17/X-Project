@@ -3,7 +3,7 @@ import { logoXpro } from "../assets";
 import { useEffect } from "react";
 
 const Navbar = () => {
-  // Start Use State Close Open Dropdown
+
   const [openOne, setOpenOne] = useState(false);
   const [openTwo, setOpenTwo] = useState(false);
   const [openMobile, setOpenMobile] = useState(false);
@@ -31,7 +31,7 @@ const Navbar = () => {
   };
 
  useEffect(() => {
-    // Contoh: Ubah openOne ketika openMobile berubah menjadi true
+    
     if (openOne) {
       setOpenOne(true);
       setOpenTwo(false);
@@ -39,7 +39,7 @@ const Navbar = () => {
   }, [openOne]);
 
   useEffect(() => {
-    // Contoh: Ubah openOne ketika openMobile berubah menjadi true
+   
      if (openTwo) {
       setOpenTwo(true);
       setOpenOne(false);
@@ -48,7 +48,7 @@ const Navbar = () => {
  
   
   
-  // End Use State Close Open Dropdown
+ 
 
   return (
     <nav className="fixed top-0 w-full py-[1.4rem] px-4 lg:px-[8.2rem] bg-gradient-to-b from-blue-500/80 from-0% via-white/10 via-[99%] to-gray-700/80 to-100% backdrop-filter backdrop-blur shadow-[0px_6px_6px_0px_rgba(0,0,0,0.25)] z-[99999]">
@@ -82,7 +82,7 @@ const Navbar = () => {
             </button>
             {/* Start Dropdown Tech Genius */}
             {openOne ? (
-              <ul className="absolute bg-gray-100/40 border border-blue-300 text-white p-[0.9rem] top-12 rounded backdrop-blur-xl shadow-[0px_6px_6px_0px_rgba(0,0,0,0.25)]">
+              <ul className="absolute bg-gradient-to-b from-blue-500/80 from-0% via-white/10 via-[99%] to-gray-700/80 to-100%  text-white p-[0.9rem] top-12 rounded backdrop-blur-xl shadow-[0px_6px_6px_0px_rgba(0,0,0,0.25)]">
                 <li className="w-[15rem] hover:bg-gray-50/5 hover:backdrop-blur rounded">
                   <a className="block w-full h-full py-[0.9rem] px-[0.6rem]" href="/Bootcamp-UIUX">
                     Bootcamp UI/UX Design
@@ -117,7 +117,7 @@ const Navbar = () => {
             </button>
             {/* Start Dropdown Tech Genius */}
             {openTwo ? (
-              <ul className="absolute bg-gray-100/40 border border-blue-300 text-white p-[0.9rem] top-12 rounded backdrop-blur-xl shadow-[0px_6px_6px_0px_rgba(0,0,0,0.25)]">
+              <ul className="absolute bg-gradient-to-b from-blue-500/80 from-0% via-white/10 via-[99%] to-gray-700/80 to-100%  text-white p-[0.9rem] top-12 rounded backdrop-blur-xl shadow-[0px_6px_6px_0px_rgba(0,0,0,0.25)]">
                 <li className="w-[15rem] hover:bg-gray-50/5 hover:backdrop-blur rounded">
                   <a className="block w-full h-full py-[0.9rem] px-[0.6rem]" href="/UIUX-Competition">
                     UI/UX Design

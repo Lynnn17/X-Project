@@ -69,7 +69,7 @@ const Footer = () => {
             </p>
             <p className="flex gap-3">
               <img className="w-5" src={phone} alt="" />
-              himtiunesa@gmail.com
+              0853 3605 1254
             </p>
             <p className="flex items-start gap-3">
               <img className="w-5" src={map} alt="" />

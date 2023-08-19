@@ -55,6 +55,7 @@ import Sponsor19 from "./img/sponsor/19.jpg";
 import Sponsor20 from "./img/sponsor/20.png";
 import Sponsor21 from "./img/sponsor/21.png";
 import Sponsor22 from "./img/sponsor/22.png";
+import GS from "./img/GS.png";
 
 export {
   logoXpro,
@@ -114,4 +115,5 @@ export {
   Sponsor20,
   Sponsor21,
   Sponsor22,
+  GS,
 };

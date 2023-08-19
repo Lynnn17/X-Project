@@ -19,7 +19,7 @@ const HeroTitle = ({ title, link }) => {
 
             {/* After Revision Start */}
             <div className="relative font-inter text-[2.5rem] md:text-8xl font-black text-blue-1100 text-center uppercase">
-              <h2 className="relative font-outline-1 text-transparent">{title}</h2>
+              <h2 className="relative font-outline-1 text-blue-1100  text-transparent ">{title}</h2>
               <h2 className="absolute top-[0.15rem] -right-[0.27rem] w-full">{title}</h2>
             </div>
             {/* After Revision End */}

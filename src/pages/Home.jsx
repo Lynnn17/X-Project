@@ -1,6 +1,8 @@
 import React from "react";
 import {  randomGraphic, 
  mediaPartner,
+ Ortographic,
+ TsOrto,
   Sponsor1,
   Sponsor2,
   Sponsor3,
@@ -76,18 +78,18 @@ const Home = () => {
         <SubTitle title="Our Event" />
         <EventCardRight
           title="Tech Genius"
-          desc="Tech Genius adalah kegiatan yang dirancang untuk membangun dan meningkatkan pemahaman serta keterampilan teknologi di kalangan peserta. Kegiatan ini bertujuan untuk mengembangkan generasi yang cakap dan kreatif dalam pemanfaatan teknologi di berbagai aspek kehidupan."
+          desc="Tech Genius adalah kegiatan awal di X-Project 9.0 yang dirancang untuk membangun dan meningkatkan pemahaman serta keterampilan teknologi di kalangan peserta dengan berbagai kegiatan pelatihan."
           img={randomGraphic}
         />
         <EventCardLeft
           title="Informatic Championship"
           desc="Informatic Championship (IC) adalah sebuah ajang perlombaan atau kompetisi yang  bertujuan untuk mengasah kemampuan dan keterampilan peserta di bidang teknologi, sehingga dapat menciptakan berbagai inovasi baru di masa yang akan datang, yang dikemas dalam berbagai jenis perlombaan"
-          img={randomGraphic}
+          img={Ortographic}
         />
         <EventCardRight
           title="Techno Symphony"
           desc="Techno Symphony adalah kegiatan akhir dari X-Project 9.0, kegiatan yang bertujuan untuk meningkatkan pengetahuan tentang rumpun teknik informatika bagi mahasiswa TI Unesa dan menjadi wadah kreatifitas seni Mahasiswa"
-          img={randomGraphic}
+          img={TsOrto}
         />
         <SubTitle title="Sponsored By" />
         <SponsorContainer images={imagesSponsor} />

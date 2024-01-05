@@ -6,7 +6,7 @@ function App() {
     <div className="App w-full h-screen">
       <Router>
         <Routes>
-          {/* Default */}
+
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
           {/* Championship */}

@@ -31,7 +31,7 @@ const TechSymphony = () => {
       <div className="pb-36 ">
       <div class="   w-full h-full px-6 md:px-[8.2rem] relative z-20">
       <div class="flex flex justify-center item-center w-full max-w-6xl  mx-auto">
-        <div class="w-[40rem] h-full ">
+        <div class="w-[40rem] h-full">
           <div class="w-full h-full px-2 py-6 bg-white rounded bg-opacity-20 backdrop-blur-sm ring-inset drop-shadow-lg ring-[0.8px] ring-[#F8F9FA] md:pl-4 text-center">
             <h1 class="md:text-2xl font-bold text-[#F8F9FA] text-lg leading-tight">Informatic Show Off, After Party </h1>
             <p class="md:text-xl text-sm font-base text-white mt-2">16 Desember 2023</p>
